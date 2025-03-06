@@ -15,6 +15,7 @@
         <module name="springcoredemo (6)" />
         <module name="cruddemo (3)" />
         <module name="springcoredemo (5)" />
+        <module name="cruddemo (4)" />
         <module name="springcoredemo (4)" />
         <module name="springcoredemo (3)" />
         <module name="chat" />
@@ -23,6 +24,9 @@
         <module name="spring-websocket" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cruddemo" target="22" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -31,6 +35,7 @@
       <module name="cruddemo (1)" options="-parameters" />
       <module name="cruddemo (2)" options="-parameters" />
       <module name="cruddemo (3)" options="-parameters" />
+      <module name="cruddemo (4)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="spring-websocket" options="-parameters" />
       <module name="springcoredemo" options="-parameters" />
